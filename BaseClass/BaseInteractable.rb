@@ -1,3 +1,4 @@
+# encoding: utf-8
 class Interactable
   attr_accessor :name, :description, :tags
 
