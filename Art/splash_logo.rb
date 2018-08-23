@@ -11,174 +11,174 @@ def draw_title_screen
 end
 
 def splash_logo1
-  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn                    '
-  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                    **nnn                    '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '
-  puts '                                     nnn *nnn                                                                           '
-  puts '                                    **nnnnnn                                                                            '
-  puts '                                     ******                                                                             '
+  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn                    '.brown
+  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                    **nnn                    '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '.brown
+  puts '                                     nnn *nnn                                                                           '.brown
+  puts '                                    **nnnnnn                                                                            '.brown
+  puts '                                     ******                                                                             '.brown
 end
 def splash_logo2
-  puts ' nnlnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn                    '
-  puts '**nln*****nnn            **nnn                  nnn*****nnn                                    **nnn                    '
-  puts ' *nln    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nlnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nln*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nln    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnlnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '***l*   *****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '
-  puts '   l                                 nnn *nnn                                                                           '
-  puts '   l                                **nnnnnn                                                                            '
-  puts '   l                                 ******                                                                             '
+  puts ' nn'.red + 'l'.bg_brown.brown + 'nnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn                    '.brown
+  puts '**n'.red + 'l'.bg_brown.brown + 'n*****nnn            **nnn                  nnn*****nnn                                    **nnn                    '.brown
+  puts ' *n'.red + 'l'.bg_brown.brown + 'n    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *n'.red + 'l'.bg_brown.brown + 'nnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *n'.red + 'l'.bg_brown.brown + 'n*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *n'.red + 'l'.bg_brown.brown + 'n    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nn'.red + 'l'.bg_brown.brown + 'nn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '***'.red + 'l'.bg_brown.brown + '*   *****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '.brown
+  puts '   '.red + 'l'.bg_brown.brown + '                                 nnn *nnn                                                                           '.brown
+  puts '   '.red + 'l'.bg_brown.brown + '                                **nnnnnn                                                                            '.brown
+  puts '   '.red + 'l'.bg_brown.brown + '                                 ******                                                                             '.brown
 end
 def splash_logo3
-  puts ' nnnnnnnlnnn              nnnnn                  nnnnnnnnn                                      nnnn                    '
-  puts '**nnn***l*nnn            **nnn                  nnn*****nnn                                    **nnn                    '
-  puts ' *nnn   l*nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnlnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn***l*nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn   l*nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn  lnnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   l****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '
-  puts '        l                            nnn *nnn                                                                           '
-  puts '        l                           **nnnnnn                                                                            '
-  puts '        l                            ******                                                                             '
+  puts ' nnnnnnn'.red + 'l'.bg_brown.brown + 'nnn              nnnnn                  nnnnnnnnn                                      nnnn                    '.brown
+  puts '**nnn***'.red + 'l'.bg_brown.brown + '*nnn            **nnn                  nnn*****nnn                                    **nnn                    '.brown
+  puts ' *nnn   '.red + 'l'.bg_brown.brown + '*nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnn'.red + 'l'.bg_brown.brown + 'nnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn***'.red + 'l'.bg_brown.brown + '*nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn   '.red + 'l'.bg_brown.brown + '*nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn  '.red + 'l'.bg_brown.brown + 'nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   '.red + 'l'.bg_brown.brown + '****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '.brown
+  puts '        '.red + 'l'.bg_brown.brown + '                            nnn *nnn                                                                           '.brown
+  puts '        '.red + 'l'.bg_brown.brown + '                           **nnnnnn                                                                            '.brown
+  puts '        '.red + 'l'.bg_brown.brown + '                            ******                                                                             '.brown
 end
 def splash_logo4
-  puts ' nnnnnnnnnnn    l         nnnnn                  nnnnnnnnn                                      nnnn                    '
-  puts '**nnn*****nnn   l        **nnn                  nnn*****nnn                                    **nnn                    '
-  puts ' *nnn    *nnn  nlnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **lnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *lnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *lnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn *lnnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   l******* ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '
-  puts '                l                    nnn *nnn                                                                           '
-  puts '                l                   **nnnnnn                                                                            '
-  puts '                l                    ******                                                                             '
+  puts ' nnnnnnnnnnn    '.red + 'l'.bg_brown.brown + '         nnnnn                  nnnnnnnnn                                      nnnn                    '.brown
+  puts '**nnn*****nnn   '.red + 'l'.bg_brown.brown + '        **nnn                  nnn*****nnn                                    **nnn                    '.brown
+  puts ' *nnn    *nnn  n'.red + 'l'.bg_brown.brown + 'nnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **'.red + 'l'.bg_brown.brown + 'nn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *'.red + 'l'.bg_brown.brown + 'nn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn    *nnn  *'.red + 'l'.bg_brown.brown + 'nn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn   nnnnn *'.red + 'l'.bg_brown.brown + 'nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   *****   '.red + 'l'.bg_brown.brown + '******* ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '.brown
+  puts '                '.red + 'l'.bg_brown.brown + '                    nnn *nnn                                                                           '.brown
+  puts '                '.red + 'l'.bg_brown.brown + '                   **nnnnnn                                                                            '.brown
+  puts '                '.red + 'l'.bg_brown.brown + '                    ******                                                                             '.brown
 end
 def splash_logo5
-  puts ' nnnnnnnnnnn              nlnnn                  nnnnnnnnn                                      nnnn                    '
-  puts '**nnn*****nnn            **lnn                  nnn*****nnn                                    **nnn                    '
-  puts ' *nnn    *nnn  nnnnn nnnn *lnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *lnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *lnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *lnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nlnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   ******** **l*****    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '
-  puts '                           l         nnn *nnn                                                                           '
-  puts '                           l        **nnnnnn                                                                            '
-  puts '                           l         ******                                                                             '
+  puts ' nnnnnnnnnnn              n'.red + 'l'.bg_brown.brown + 'nnn                  nnnnnnnnn                                      nnnn                    '.brown
+  puts '**nnn*****nnn            **'.red + 'l'.bg_brown.brown + 'nn                  nnn*****nnn                                    **nnn                    '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *'.red + 'l'.bg_brown.brown + 'nnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *'.red + 'l'.bg_brown.brown + 'nn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *'.red + 'l'.bg_brown.brown + 'nn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *'.red + 'l'.bg_brown.brown + 'nn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn n'.red + 'l'.bg_brown.brown + 'nnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   *****   ******** **'.red + 'l'.bg_brown.brown + '*****    *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '.brown
+  puts '                           '.red + 'l'.bg_brown.brown + '         nnn *nnn                                                                           '.brown
+  puts '                           '.red + 'l'.bg_brown.brown + '        **nnnnnn                                                                            '.brown
+  puts '                           '.red + 'l'.bg_brown.brown + '         ******                                                                             '.brown
 end
 def splash_logo6
-  puts ' nnnnnnnnnnn              nnnnn     l            nnnnnnnnn                                      nnnn                    '
-  puts '**nnn*****nnn            **nnn      l           nnn*****nnn                                    **nnn                    '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  lnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn*lnnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn lnnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn lnnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  l*nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   ******** ********   l*****nnn   *********  *****      ********    **** ****    *****  ******  *****     '
-  puts '                                    lnnn *nnn                                                                           '
-  puts '                                    l*nnnnnn                                                                            '
-  puts '                                    l******                                                                             '
+  puts ' nnnnnnnnnnn              nnnnn     '.red + 'l'.bg_brown.brown + '            nnnnnnnnn                                      nnnn                    '.brown
+  puts '**nnn*****nnn            **nnn      '.red + 'l'.bg_brown.brown + '           nnn*****nnn                                    **nnn                    '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  '.red + 'l'.bg_brown.brown + 'nnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn*'.red + 'l'.bg_brown.brown + 'nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn '.red + 'l'.bg_brown.brown + 'nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn '.red + 'l'.bg_brown.brown + 'nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  '.red + 'l'.bg_brown.brown + '*nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   *****   ******** ********   '.red + 'l'.bg_brown.brown + '*****nnn   *********  *****      ********    **** ****    *****  ******  *****     '.brown
+  puts '                                    '.red + 'l'.bg_brown.brown + 'nnn *nnn                                                                           '.brown
+  puts '                                    '.red + 'l'.bg_brown.brown + '*nnnnnn                                                                            '.brown
+  puts '                                    '.red + 'l'.bg_brown.brown + '******                                                                             '.brown
 end
 def splash_logo7                                           
-  puts ' nnnnnnnnnnn              nnnnn                  nnlnnnnnn                                      nnnn                    '
-  puts '**nnn*****nnn            **nnn                  nnnl****nnn                                    **nnn                    '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn l   ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn l       **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn l        *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnnl    nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnlnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   ******** ********    *****nnn   ***l*****  *****      ********    **** ****    *****  ******  *****     '
-  puts '                                     nnn *nnn      l                                                                    '
-  puts '                                    **nnnnnn       l                                                                    '
-  puts '                                     ******        l                                                                    '
+  puts ' nnnnnnnnnnn              nnnnn                  nn'.red + 'l'.bg_brown.brown + 'nnnnnn                                      nnnn                    '.brown
+  puts '**nnn*****nnn            **nnn                  nnn'.red + 'l'.bg_brown.brown + '****nnn                                    **nnn                    '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn '.red + 'l'.bg_brown.brown + '   ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn '.red + 'l'.bg_brown.brown + '       **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn '.red + 'l'.bg_brown.brown + '        *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn'.red + 'l'.bg_brown.brown + '    nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nn'.red + 'l'.bg_brown.brown + 'nnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   *****   ******** ********    *****nnn   ***'.red + 'l'.bg_brown.brown + '*****  *****      ********    **** ****    *****  ******  *****     '.brown
+  puts '                                     nnn *nnn      '.red + 'l'.bg_brown.brown + '                                                                    '.brown
+  puts '                                    **nnnnnn       '.red + 'l'.bg_brown.brown + '                                                                    '.brown
+  puts '                                     ******        '.red + 'l'.bg_brown.brown + '                                                                    '.brown
 end
 def splash_logo8
-  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn          l                           nnnn                    '
-  puts '**nnn*****nnn            **nnn                  nnn*****nnn         l                          **nnn                    '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnnl  nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnl *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***l  nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn    l nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn   l**nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   ******** ********    *****nnn   *********  *****    l ********    **** ****    *****  ******  *****     '
-  puts '                                     nnn *nnn                       l                                                   '
-  puts '                                    **nnnnnn                        l                                                   '
-  puts '                                     ******                         l                                                   '
+  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn          '.red + 'l'.bg_brown.brown + '                           nnnn                    '.brown
+  puts '**nnn*****nnn            **nnn                  nnn*****nnn         '.red + 'l'.bg_brown.brown + '                          **nnn                    '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn'.red + 'l'.bg_brown.brown + '  nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nn'.red + 'l'.bg_brown.brown + ' *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***'.red + 'l'.bg_brown.brown + '  nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn    '.red + 'l'.bg_brown.brown + ' nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn   '.red + 'l'.bg_brown.brown + '**nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   *****   ******** ********    *****nnn   *********  *****    '.red + 'l'.bg_brown.brown + ' ********    **** ****    *****  ******  *****     '.brown
+  puts '                                     nnn *nnn                       '.red + 'l'.bg_brown.brown + '                                                   '.brown
+  puts '                                    **nnnnnn                        '.red + 'l'.bg_brown.brown + '                                                   '.brown
+  puts '                                     ******                         '.red + 'l'.bg_brown.brown + '                                                   '.brown
 end
 def splash_logo9
-  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                        l             nnnn                    '
-  puts '**nnn*****nnn            **nnn                  nnn*****nnn                       l            **nnn                    '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnlnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nln *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nln *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **lnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  *lnnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    l*** ****    *****  ******  *****     '
-  puts '                                     nnn *nnn                                     l                                     '
-  puts '                                    **nnnnnn                                      l                                     '
-  puts '                                     ******                                       l                                     '
+  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                        '.red + 'l'.bg_brown.brown + '             nnnn                    '.brown
+  puts '**nnn*****nnn            **nnn                  nnn*****nnn                       '.red + 'l'.bg_brown.brown + '            **nnn                    '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nn'.red + 'l'.bg_brown.brown + 'nn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **n'.red + 'l'.bg_brown.brown + 'n *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *n'.red + 'l'.bg_brown.brown + 'n *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **'.red + 'l'.bg_brown.brown + 'nnnnnnnnnn   *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  *'.red + 'l'.bg_brown.brown + 'nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    '.red + 'l'.bg_brown.brown + '*** ****    *****  ******  *****     '.brown
+  puts '                                     nnn *nnn                                     '.red + 'l'.bg_brown.brown + '                                     '.brown
+  puts '                                    **nnnnnn                                      '.red + 'l'.bg_brown.brown + '                                     '.brown
+  puts '                                     ******                                       '.red + 'l'.bg_brown.brown + '                                     '.brown
 end
 def splash_logo10
-  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                    l nnnn                    '
-  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                   l**nnn                    '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnl *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnnl *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnnl *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn l *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn  l nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    **** ****   l*****  ******  *****     '
-  puts '                                     nnn *nnn                                                 l                         '
-  puts '                                    **nnnnnn                                                  l                         '
-  puts '                                     ******                                                   l                         '
+  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                    '.red + 'l'.bg_brown.brown + ' nnnn                    '.brown
+  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                   '.red + 'l'.bg_brown.brown + '**nnn                    '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnn'.red + 'l'.bg_brown.brown + ' *nnn   nnnnnn  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn'.red + 'l'.bg_brown.brown + ' *nnn  nnn**nnn**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn'.red + 'l'.bg_brown.brown + ' *nnn *nnnnnnn  *nnn *** '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn '.red + 'l'.bg_brown.brown + ' *nnn *nnn***   *nnn     '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn  '.red + 'l'.bg_brown.brown + ' nnnnn**nnnnnn  nnnnn    '.brown
+  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    **** ****   '.red + 'l'.bg_brown.brown + '*****  ******  *****     '.brown
+  puts '                                     nnn *nnn                                                 '.red + 'l'.bg_brown.brown + '                         '.brown
+  puts '                                    **nnnnnn                                                  '.red + 'l'.bg_brown.brown + '                         '.brown
+  puts '                                     ******                                                   '.red + 'l'.bg_brown.brown + '                         '.brown
 end
 def splash_logo11
-  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn        l           '
-  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                    **nnn        l           '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnl  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nln**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnl  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***l  *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnl  nnnnn    '
-  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******l *****     '
-  puts '                                     nnn *nnn                                                               l           '
-  puts '                                    **nnnnnn                                                                l           '
-  puts '                                     ******                                                                 l           '
+  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn        '.red + 'l'.bg_brown.brown + '           '.brown
+  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                    **nnn        '.red + 'l'.bg_brown.brown + '           '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnn'.red + 'l'.bg_brown.brown + '  nnnnnnnn '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**n'.red + 'l'.bg_brown.brown + 'n**nnn**nnn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnn'.red + 'l'.bg_brown.brown + '  *nnn *** '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***'.red + 'l'.bg_brown.brown + '  *nnn     '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnn'.red + 'l'.bg_brown.brown + '  nnnnn    '.brown
+  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******'.red + 'l'.bg_brown.brown + ' *****     '.brown
+  puts '                                     nnn *nnn                                                               '.red + 'l'.bg_brown.brown + '           '.brown
+  puts '                                    **nnnnnn                                                                '.red + 'l'.bg_brown.brown + '           '.brown
+  puts '                                     ******                                                                 '.red + 'l'.bg_brown.brown + '           '.brown
 end
 def splash_logo12
-  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn                 l  '
-  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                    **nnn                 l  '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnln '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**lnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *l* '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn  l  '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn l  '
-  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****  l  '
-  puts '                                     nnn *nnn                                                                        l  '
-  puts '                                    **nnnnnn                                                                         l  '
-  puts '                                     ******                                                                          l  '
+  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn                 '.red + 'l'.bg_brown.brown + '  '.brown
+  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                    **nnn                 '.red + 'l'.bg_brown.brown + '  '.brown
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnn'.red + 'l'.bg_brown.brown + 'n '.brown
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**'.red + 'l'.bg_brown.brown + 'nn'.brown
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *'.red + 'l'.bg_brown.brown + '* '.brown
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn  '.red + 'l'.bg_brown.brown + '  '.brown
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn '.red + 'l'.bg_brown.brown + '  '.brown
+  puts '*****   *****   ******** ********    *****nnn   *********  *****      ********    **** ****    *****  ******  *****  '.red + 'l'.bg_brown.brown + '  '.brown
+  puts '                                     nnn *nnn                                                                        '.red + 'l'.bg_brown.brown + '  '.brown
+  puts '                                    **nnnnnn                                                                         '.red + 'l'.bg_brown.brown + '  '.brown
+  puts '                                     ******                                                                          '.red + 'l'.bg_brown.brown + '  '.brown
 end
 def splash_logo13
-  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn                    '
-  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                    **nnn                    '
-  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '
-  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'
-  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '
-  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '
-  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '
-  puts '*****   *****   ******** ****_**     *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '                                                
-  puts '                   _         | |     nnn *nnn                                                                           '
-  puts '                  | | _______| |---------------------------------------------\                                          '
-  puts '                  |:-)_______|==[]======= Press return  to start game ========>                                         '
-  puts '                  |_|        | |---------------------------------------------/                                          '
-  puts '                             |_|                                                                                        '
+  puts ' nnnnnnnnnnn              nnnnn                  nnnnnnnnn                                      nnnn                    '.red
+  puts '**nnn*****nnn            **nnn                  nnn*****nnn                                    **nnn                    '.red
+  puts ' *nnn    *nnn  nnnnn nnnn *nnnnnnn  nnnnn nnnn nnn     ***  nnnnnnnn   nnnnnn   nnnnn nnn nnnnn *nnn   nnnnnn  nnnnnnnn '.red
+  puts ' *nnnnnnnnnn  **nnn *nnn  *nnn**nnn**nnn *nnn *nnn         **nnn**nnn *****nnn **nnn *nnn**nnn  *nnn  nnn**nnn**nnn**nnn'.red
+  puts ' *nnn*****nnn  *nnn *nnn  *nnn *nnn *nnn *nnn *nnn          *nnn ***   nnnnnnn  *nnn *nnn *nnn  *nnn *nnnnnnn  *nnn *** '.red
+  puts ' *nnn    *nnn  *nnn *nnn  *nnn *nnn *nnn *nnn **nnn     nnn *nnn      nnn**nnn  **nnnnnnnnnnn   *nnn *nnn***   *nnn     '.red
+  puts ' nnnnn   nnnnn **nnnnnnnn nnnnnnnn  **nnnnnnn  **nnnnnnnnn  nnnnn    **nnnnnnnn  **nnnn*nnnn    nnnnn**nnnnnn  nnnnn    '.red
+  puts '*****   *****   ******** ****_**     *****nnn   *********  *****      ********    **** ****    *****  ******  *****     '.red                             
+  puts '                   _         | |  '.gray + '   nnn *nnn                                                                           '.red
+  puts '                  | | _______| |---------------------------------------------\                                          '.gray
+  puts '                  |:-)_______|==[]======= Press return  to start game ========>                                         '.gray
+  puts '                  |_|        | |---------------------------------------------/                                          '.gray
+  puts '                             |_|                                                                                        '.gray
 end
 

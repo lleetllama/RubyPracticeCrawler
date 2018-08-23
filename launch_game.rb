@@ -6,6 +6,10 @@ load "Model/UserResponse.rb"
 load "Model/Dungeon.rb"
 load "Model/BaseInteractable.rb"
 load "Model/GameSession.rb"
+
+#### String Format Settings
+load "Model/BaseString.rb"
+
 #### --sub classes--
 load "Model/Container.rb"
 load "Model/Item.rb"
