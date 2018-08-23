@@ -1,10 +1,18 @@
-Encoding.default_external = Encoding::UTF_8
-Encoding.default_internal = Encoding::UTF_8
 
-#### Load Resources
-Dir["BaseClass/*.rb"].each   {|file| load file }
-Dir["SubClass/*.rb"].each    {|file| load file }
-Dir["Prefab/*.rb"].each      {|file| load file }
+#### Load Datamodel
+load "Model/BasePlayer.rb"
+load "Model/Room.rb"
+load "Model/UserResponse.rb"
+load "Model/Dungeon.rb"
+load "Model/BaseInteractable.rb"
+load "Model/GameSession.rb"
+#### --sub classes--
+load "Model/Container.rb"
+load "Model/Item.rb"
+load "Model/BaseLoot.rb"
+
+#### Load Loose Resources
+Dir["Prefab/**/*.rb"].each      {|file| load file }
 Dir["Art/*.rb"].each         {|file| load file }
 Dir["CodeBlocks/*.rb"].each  {|file| load file }
 
@@ -18,12 +26,3 @@ draw_title_screen
 
 #initialize the game
 play_prologue
-
-@game.player.save_player
-puts "players name is #{@game.player.name}"
-gets
-
-@game.player.load_player("Wilber")
-
-puts "players name is #{@game.player.name}"
-gets

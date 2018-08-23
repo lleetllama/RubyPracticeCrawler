@@ -14,10 +14,10 @@ class BasePlayer
 
   def save_player
     open("#{self.name}.rb", 'w') { |f|
-      f << "def recover_player\n"
-      f << "  @game.player.name = #{self.name}\n"
-      f << "  @game.player.health = #{self.health}\n"
-      f << "  @game.player.gold = #{self.gold}\n"
+      f << "def recover_player(player)\n"
+      f << "  player.name = #{self.name}\n"
+      f << "  player.health = #{self.health}\n"
+      f << "  player.gold = #{self.gold}\n"
       f << "end\n"
     } 
     puts "player saved!"

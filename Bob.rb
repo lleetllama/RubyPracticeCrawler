@@ -1,5 +1,5 @@
-def recover_player
-  @game.player.name = Bob
-  @game.player.health = 100
-  @game.player.gold = 0
+def recover_player(player)
+  player.name = Bob
+  player.health = 100
+  player.gold = 0
 end
