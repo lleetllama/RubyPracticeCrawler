@@ -1,42 +1,50 @@
-# encoding: utf-8
 class Interactable
-  attr_accessor :name, :description, :tags
+  attr_accessor :name,:description
 
-  def initialize(name,tags)
-    @name = name
-    @tags = tags
+  #### hash of alias methods
+  @@alias_list = {
+   take: %i(grab snatch),
+   look: %i(inspect observe),
+   open: %i(pry),
+  close: %i(shut),
+   push: %i(ram shove),
+   pull: %i(yank)
+  }
+
+  def initilaize
+    @name
     @description
   end
 
-  def open
-    puts "I dont know how to open #{self.name}."
+  def open 
+  puts "I don't know how to #{__callee__} #{@name} "
   end
 
-  def take
-    puts "I can't take #{self.name}."
+  def close 
+  puts "I don't know how to #{__callee__} #{@name} "
   end
 
-  def push
-    puts "pushing #{self.name} wouldn't accomplish much."
+  def push 
+  puts "I don't know how to #{__callee__} #{@name} "
   end
 
-  def use
-    puts "I don't know how to use #{self.name}."
+  def pull 
+  puts "I don't know how to #{__callee__} #{@name} "
   end
 
-  def attack
-    puts "attacking #{self.name} wouldn't accomplish much."
+  def take 
+  puts "I don't know how to #{__callee__} #{@name} "
   end
 
-  def pull
-    puts "pulling #{self.name} wouldn't accomplish much."
+  def look 
+  puts "I don't know how to #{__callee__} #{@name} "
   end
 
-  def look
-    if @description.nil?
-      puts "It's #{self.name}. Not much to mention."
-    else 
-      puts @description
+  def self.build_alias_list
+    @@alias_list.keys.each do |org_method|
+      @@alias_list[org_method].each do |alias_method|
+        alias_method alias_method.to_sym, org_method.to_sym
+      end
     end
   end
 
